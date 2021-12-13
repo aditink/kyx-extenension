@@ -29,6 +29,9 @@
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
 	},
+	"watch": {
+		"files": "**/*.ts"
+	},
 	"devDependencies": {
 		"@types/vscode": "^1.63.0",
 		"@types/glob": "^7.1.4",
